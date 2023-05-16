@@ -72,5 +72,25 @@ namespace companyAssignment.Controllers
             return Ok();
 
         }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> DeleteEmployee(int id)
+        {
+            if (_employeeContext.Employees == null)
+            {
+                return NotFound();
+            }
+
+            var employee = await _employeeContext.Employees.FindAsync(id);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+
+            _employeeContext.Employees.Remove(employee);
+            await _employeeContext.SaveChangesAsync();
+
+            return Ok();
+        }
     }
 }

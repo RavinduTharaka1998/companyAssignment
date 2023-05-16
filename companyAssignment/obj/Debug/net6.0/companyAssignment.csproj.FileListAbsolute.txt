@@ -80,3 +80,8 @@ C:\Users\ASUS\source\repos\companyAssignment\companyAssignment\obj\Debug\net6.0\
 C:\Users\ASUS\source\repos\companyAssignment\companyAssignment\obj\Debug\net6.0\companyAssignment.pdb
 C:\Users\ASUS\source\repos\companyAssignment\companyAssignment\obj\Debug\net6.0\companyAssignment.genruntimeconfig.cache
 C:\Users\ASUS\source\repos\companyAssignment\companyAssignment\obj\Debug\net6.0\ref\companyAssignment.dll
+C:\Users\ASUS\source\repos\companyAssignment\companyAssignment\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\ASUS\source\repos\companyAssignment\companyAssignment\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ASUS\source\repos\companyAssignment\companyAssignment\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ASUS\source\repos\companyAssignment\companyAssignment\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ASUS\source\repos\companyAssignment\companyAssignment\obj\Debug\net6.0\companyAssignment.MvcApplicationPartsAssemblyInfo.cs
