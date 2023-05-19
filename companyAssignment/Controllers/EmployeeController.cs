@@ -46,6 +46,7 @@ namespace companyAssignment.Controllers
         [HttpPost]
         public async Task<ActionResult<Employee>> PostEmployee(Employee employee)
         {
+            
             _employeeContext.Employees.Add(employee);
             await _employeeContext.SaveChangesAsync();
 
